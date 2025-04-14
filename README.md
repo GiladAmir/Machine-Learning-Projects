@@ -1,3 +1,4 @@
+HEAD
 This repository contains the solutions and implementations of exercises 
 from an academic machine learning course.
 
@@ -31,5 +32,3 @@ I implemented the K-means clustering algorithm for RGB color quantization.
 Each pixel in the image was treated as a point in RGB space and clustered 
 into k centroids. I reduced the number of colors in images (e.g., to 16 or 
 256) for compression, and visualized the results.
-
-
