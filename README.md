@@ -1,34 +1,56 @@
+# 🧠 Machine Learning Projects
 
-This repository contains the solutions and implementations of exercises 
-from an academic machine learning course.
+This repository contains the solutions and implementations of exercises from an academic Machine Learning course. Each project focuses on a different ML concept or algorithm, implemented from scratch using Python and NumPy.
 
-Project 1 – Linear Regression for Housing Prices
-I applied univariate linear regression to predict house prices based on 
-square footage. I performed data normalization using mean normalization, 
-computed gradients efficiently using vectorized operations, and 
-implemented preprocessing and training functions manually using NumPy.
+---
 
-Project 2 – Decision Tree for Mushroom Classification
-I implemented a decision tree classifier from scratch using 
-object-oriented programming in Python. I worked on preprocessing a 
-categorical dataset of mushroom features and trained a tree to classify 
-whether a mushroom is edible or poisonous, ensuring efficiency and proper 
-handling of missing values.
+## 📈 Project 1 – Linear Regression for Housing Prices
+I applied **univariate linear regression** to predict house prices based on square footage. Key components:
+- Manual implementation using **NumPy**
+- **Mean normalization** for data preprocessing
+- **Vectorized gradient descent**
+- Custom functions for model training and prediction
 
-Project 3 – Bayesian Inference and MAP Classifier
-I explored conditional independence, implemented a Poisson distribution 
-log-PMF, and performed maximum likelihood estimation (MLE) using both 
-iterative and analytic approaches. The focus was on probabilistic modeling 
-and MAP estimation based on real-world data.
+---
 
-Project 4 – Logistic Regression, Bayesian Estimation, and EM
-I implemented logistic regression using gradient descent, selected 
-features via Pearson correlation, and worked on Naive Bayes classification 
-and Expectation-Maximization (EM) for Gaussian mixture models. Emphasis 
-was on probabilistic learning and iterative optimization.
+## 🍄 Project 2 – Decision Tree for Mushroom Classification
+I implemented a **decision tree classifier** from scratch using **object-oriented programming**. The goal was to classify mushrooms as **edible or poisonous** based on categorical features.
+- Categorical data preprocessing
+- Tree-building using entropy-based information gain
+- Recursive splitting and leaf creation
+- Efficient handling of missing values
 
-Project 5 – K-Means Clustering for Image Compression
-I implemented the K-means clustering algorithm for RGB color quantization. 
-Each pixel in the image was treated as a point in RGB space and clustered 
-into k centroids. I reduced the number of colors in images (e.g., to 16 or 
-256) for compression, and visualized the results.
+---
+
+## 📊 Project 3 – Bayesian Inference and MAP Classifier
+This project explored **probabilistic modeling** and **Maximum A Posteriori (MAP) estimation** using:
+- Poisson distribution and **log-PMF implementation**
+- **MLE (Maximum Likelihood Estimation)**: iterative and analytical
+- Conditional independence assumption
+- Application on real-world datasets
+
+---
+
+## 🧮 Project 4 – Logistic Regression, Naive Bayes, and EM
+A combined project covering:
+- **Logistic regression** with gradient descent
+- **Feature selection** using Pearson correlation
+- **Naive Bayes classification**
+- **EM (Expectation-Maximization)** for Gaussian mixture models
+- Focus on iterative probabilistic learning techniques
+
+---
+
+## 🎨 Project 5 – K-Means Clustering for Image Compression
+I implemented the **K-Means clustering** algorithm to reduce the number of colors in images:
+- Each pixel represented as a 3D point in **RGB space**
+- Clustered into **k color centroids** (e.g., 16 or 256)
+- Image compression by replacing pixels with their closest centroid
+- Visualization of compressed images
+
+---
+
+Feel free to explore the individual folders for Jupyter notebooks, `.py` scripts, and sample visualizations.  
+👨‍💻 All implementations are from scratch, demonstrating core ML principles without relying on external ML libraries.
+
+---
