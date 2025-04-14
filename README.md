@@ -1,4 +1,4 @@
-HEAD
+
 This repository contains the solutions and implementations of exercises 
 from an academic machine learning course.
 
